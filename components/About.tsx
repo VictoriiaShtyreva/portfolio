@@ -37,7 +37,7 @@ const About = () => {
               alt="Viktoriia Shtyreva"
               width={300}
               height={300}
-              className="relative rounded-md mb-4 mt-4"
+              className="relative rounded-full mb-4 mt-4"
             />
             <Image
               src={overlayImage}
