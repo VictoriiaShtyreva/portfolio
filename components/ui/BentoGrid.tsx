@@ -141,11 +141,11 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
-          {/* Accomplishments */}
+          {/* CV button */}
           {id === 6 && (
             <div className="mt-5 relative">
               <MagicButton
-                title={"My accomplishments"}
+                title={"View my CV"}
                 icon={<IoOpenSharp />}
                 position="left"
                 handleClick={toggleModal}

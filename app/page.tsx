@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Grid from "@/components/Grid";
+import Projects from "@/components/Projects";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <About />
         <Grid />
+        <Projects />
       </div>
     </main>
   );
