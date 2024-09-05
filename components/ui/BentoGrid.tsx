@@ -5,7 +5,6 @@ import { useState } from "react";
 import MagicButton from "../MagicButton";
 import { IoOpenSharp } from "react-icons/io5";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
-import Modal from "../Modal";
 
 export const BentoGrid = ({
   className,
@@ -50,10 +49,25 @@ export const BentoGridItem = ({
   const leftLists = ["React", "Redux", "Typescript", "MUI", "Tailwind"];
   const rightLists = ["C#", "ASP.NET Core", "PostgreSQL", "Azure"];
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [cvDownloaded, setCvDownloaded] = useState(false);
+  const [showConfettiGif, setShowConfettiGif] = useState(false);
 
-  const toggleModal = () => {
-    setIsOpen(!isOpen);
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/ViktoriiaShtyreva_resume.pdf";
+    link.download = "ViktoriiaShtyreva.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Show confetti gif
+    setCvDownloaded(true);
+    setShowConfettiGif(true);
+
+    // Hide the confetti gif after 3 seconds
+    setTimeout(() => {
+      setShowConfettiGif(false);
+    }, 3000);
   };
 
   return (
@@ -141,22 +155,29 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+          {/* Show confetti GIF */}
+          {showConfettiGif && (
+            <img
+              src="/confetti.gif"
+              alt="Confetti celebration"
+              className="absolute inset-0 w-1/2 h-1/2 object-contain z-50"
+              style={{ left: "25%", top: "25%" }}
+            />
+          )}
           {/* CV button */}
           {id === 6 && (
             <div className="mt-5 relative">
               <MagicButton
-                title={"View my CV"}
+                title={cvDownloaded ? "CV was downloaded" : "Download CV"}
                 icon={<IoOpenSharp />}
                 position="left"
-                handleClick={toggleModal}
+                handleClick={handleDownload}
                 otherClasses="!bg-[#161A31]"
               />
             </div>
           )}
         </div>
       </div>
-      {/* Modal */}
-      {isOpen && <Modal onClose={toggleModal} />}
     </div>
   );
 };
