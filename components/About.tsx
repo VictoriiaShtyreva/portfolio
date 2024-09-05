@@ -11,7 +11,7 @@ import MagicButton from "./MagicButton";
 
 const About = () => {
   return (
-    <div className="pb-20 pt-36 mt-2">
+    <div className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -25,10 +25,7 @@ const About = () => {
       </div>
       <HeroHighlight>
         <div className="relative flex flex-col items-center mt-10">
-          <h2
-            className="absolute -top-10 text-3xl md:text-5xl font-bold text-center opacity-50"
-            style={{ zIndex: -1 }}
-          >
+          <h2 className="absolute -top-10 text-3xl md:text-5xl font-bold text-center opacity-50 -z-1">
             Hi👋, I’m Viktoriia
           </h2>
           <div className="relative">

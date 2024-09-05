@@ -53,7 +53,7 @@ export const gridItems = [
     id: 5,
     title: "Certified Azure Developer Associate",
     description:
-      "Recently completed the Event Management System API project, built using .NET, Entity Framework Core, and PostgreSQL. The application integrates with Azure services for storage and monitoring. As a result, I earned the Microsoft Certified: Azure Developer Associate certification.",
+      "Recently completed the Event Management System API project, built using .NET, Entity Framework Core, PostgreSQL and Azure. As a result, I earned the Microsoft Certified: Azure Developer Associate certification.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -129,21 +129,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Viktoriia was a pleasure to work with. We managed PRs together and developed more challenging features. Good communication, great skills. Highly recommend her for any developer positions.",
+    name: "Aaro Varjonen",
+    title: "Frontend developer",
+    picture: "/1.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Viktoriia was an excellent member of our team. She contributed to the product with a can-do attitude and was selfless in helping out other, more junior team members and helped them also with their growth. She is ideal for any project that requires a roll up your sleeves to get stuff done. She has excellent communication skills and really cares about her work and contribution! I can highly recommend Viktoriia for any full-time position or also as an assistant lead developer. A great asset to any team!",
+    name: "Paul Brennan",
+    title: "Talent Hive Co-Founder",
+    picture: "/2.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Viktoriia has been a very valuable team member at Unfair Advantage. An exceptional frontend developer with outstanding documentation skills and a talent for providing detailed feedback. Viktoriia possesses a remarkable ability to create clear and comprehensive documentation. She understands the importance of documentation in facilitating seamless collaboration and knowledge transfer within the team.",
+    name: "Jazen Mathew Cordero",
+    title: "Industrial Engineering And Management Student at LUT University",
+    picture: "/3.jpeg",
   },
 ];
 

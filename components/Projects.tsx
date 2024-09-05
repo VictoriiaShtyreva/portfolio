@@ -4,10 +4,25 @@ import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import bg from "../public/bg.png";
 import { PinContainer } from "./ui/PinContainer";
+import { Spotlight } from "./ui/Spotlight";
 
 const Projects = () => {
   return (
     <div className="py-20" id="projects">
+      <div>
+        <Spotlight
+          className="bottom-30 -left-10 md:-left-32 md:-top-50 h-screen"
+          fill="white"
+        />
+        <Spotlight
+          className="bottom-30 left-full h-[80hv] w-[50vw]"
+          fill="purple"
+        />
+        <Spotlight
+          className="bottom-30 left-18 h-[80vh] w-[50vw]"
+          fill="blue"
+        />
+      </div>
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -28,7 +43,7 @@ const Projects = () => {
                 </div>
                 <Image
                   src={item.img}
-                  width={400}
+                  width={300}
                   height={300}
                   alt="cover"
                   className="z-10 absolute bottom-0"

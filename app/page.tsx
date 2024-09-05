@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Grid from "@/components/Grid";
 import Projects from "@/components/Projects";
+import Testimonials from "@/components/Testimonials";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
         <Grid />
         <Projects />
+        <Testimonials />
       </div>
     </main>
   );
