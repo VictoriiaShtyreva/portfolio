@@ -186,24 +186,40 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    position: "FULL-STACK DEVELOPER",
+    time: "January 2024 - Present",
+    content: `
+      Managed User Authentication and Authorization with ASP.NET Core Identity, EntraID, and Microsoft Graph.
+      Used Azure Functions, Azure App Services, Azure Cosmos DB, and Azure Service Bus.
+      Integrated Azure Services for storage and monitoring.
+      Built the backend of an e-commerce application, QuickMart, as part of a capstone project.
+      Developed full-stack features using TypeScript, React, Redux, ASP.NET Core, and PostgreSQL.
+    `,
+    img: "/integrify-logo.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    position: "FRONTEND DEVELOPER",
+    time: "January 2023 - December 2023",
+    content: `
+      Reduced bug incidence by 30% in areas like authentication, event creation, and payment processing.
+      Implemented Stripe API, increasing transaction volume by 25%.
+      Developed and maintained React components, improving user experience.
+      Technologies used: React.js, React Router, Redux, Material UI, Stripe API.
+    `,
+    img: "/unfair-logo.jpeg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    position: "RESEARCHER",
+    time: "August 2019 - May 2022",
+    content: `
+      Enhanced the efficiency of analytical processes, increasing the number of samples analyzed by 30%.
+      Managed biotechnology projects, coordinating multi-disciplinary teams, improving project delivery by 15%.
+      Mentored junior researchers, improving team capabilities and performance.
+      Technologies and skills used: Project management, Jira, Analytical skills.
+    `,
+    img: "/biocad-logo.svg",
   },
 ];
 
