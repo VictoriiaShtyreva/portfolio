@@ -21,7 +21,7 @@ export const gridItems = [
     id: 2,
     title: "Communication",
     description:
-      "My experience as a frontend and a full-stack developer has taught me the importance of clear and open communication. I believe in working closely with my team to understand our collective goals and deliver effective solutions.",
+      "I believe in working closely with my team to understand our collective goals and deliver effective solutions.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -30,7 +30,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "Tech stack",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -46,8 +46,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "/bg.png",
+    spareImg: "/grid.svg",
   },
   {
     id: 5,
@@ -55,9 +55,9 @@ export const gridItems = [
     description:
       "Recently completed the Event Management System API project, built using .NET, Entity Framework Core, PostgreSQL and Azure. As a result, I earned the Microsoft Certified: Azure Developer Associate certification.",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-1/2 sm:w-1/4",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.png",
+    img: "/azure.svg",
     spareImg: "/grid.svg",
   },
   {

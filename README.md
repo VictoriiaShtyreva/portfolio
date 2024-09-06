@@ -60,12 +60,12 @@ The portfolio is hosted and deployed on Vercel. Continuous deployment is enabled
 
 ## 🔗 Live Demo
 
-You can visit my live portfolio here: Viktoriia's Portfolio
+You can visit my live portfolio here: [Viktoriia's Portfolio](https://portfolio-blush-eight-27.vercel.app/)
 
 ## 📧 Contact
 
 If you'd like to collaborate or have any questions, feel free to reach out to me!
 
-Email: vikatori1409801@gmail.com
-LinkedIn: [My-LinkedIn-profile](https://www.linkedin.com/in/viktoriiashtyreva/)
-GitHub: [My-GitHub-profile](https://github.com/VictoriiaShtyreva)
+- Email: vikatori1409801@gmail.com
+- LinkedIn: [My-LinkedIn-profile](https://www.linkedin.com/in/viktoriiashtyreva/)
+- GitHub: [My-GitHub-profile](https://github.com/VictoriiaShtyreva)

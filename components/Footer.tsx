@@ -1,13 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import footerBg from "../public/footer-grid.svg";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 
 const Footer = () => {
   return (
-    <footer className="w-full pb-10 pt-20" id="contact">
+    <footer className="w-full pb-10 pt-40" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Let’s collaborate and build something remarkable
