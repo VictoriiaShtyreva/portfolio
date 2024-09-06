@@ -2,10 +2,22 @@ import React from "react";
 import { workExperience } from "@/data";
 import Image from "next/image";
 import { Timeline } from "./ui/Timeline";
+import { Spotlight } from "./ui/Spotlight";
 
 const WorkExperience = () => {
   return (
     <div className="py-10" id="work-experience">
+      <div>
+        <Spotlight
+          className="bottom-30 -left-10 h-[80hv] w-[50vw]"
+          fill="white"
+        />
+        <Spotlight
+          className="bottom-30 left-full h-[80hv] w-[50vw]"
+          fill="purple"
+        />
+        <Spotlight className="top-50 left-full h-[80vh] w-[50vw]" fill="blue" />
+      </div>
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>

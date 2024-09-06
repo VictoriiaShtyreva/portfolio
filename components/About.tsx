@@ -35,6 +35,7 @@ const About = () => {
               width={300}
               height={300}
               className="relative rounded-full mb-4 mt-4"
+              priority
             />
             <Image
               src={overlayImage}
