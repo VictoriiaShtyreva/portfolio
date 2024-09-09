@@ -26,7 +26,7 @@ const MagicButton = ({
 
   useEffect(() => {
     if (isSafari()) {
-      setIsSafariBrowser(true); // Safari browser detected
+      setIsSafariBrowser(true);
     }
   }, []);
 
