@@ -46,7 +46,7 @@ const About = () => {
             />
           </div>
           <TextGenerateEffect
-            words="I'm a highly motivated, detail-oriented fullstack developer based in Helsinki, Finland."
+            words="I'm a highly motivated, detail-oriented Full Stack developer based in Helsinki, Finland."
             className="text-center text-xl md:text-3xl lg:text-4xl xl:text-5xl"
           />
           <a href="#about" className="mt-2 md:mt-4">

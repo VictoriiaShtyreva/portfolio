@@ -40,9 +40,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Developed a backend for an e-commerce app",
+    title: "Developing a Full-Stack Event Management Application",
     description:
-      "Built with ASP.NET Core, the app features a REST API for data management, user authentication, and role-based actions. Integrated with Stripe for secure payments and deployed on Vercel.",
+      "A app that allows users to browse and create events with personalized recommendations. Built using Node.js for the backend, React for the frontend, and MongoDB for data storage. Integrated generative AI-powered search for tailored event suggestions based on user preferences.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
