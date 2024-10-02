@@ -40,9 +40,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Developing a Full-Stack Event Management Application",
+    title: "EventApp using Gen-AI",
     description:
-      "A app that allows users to browse and create events with personalized recommendations. Built using Node.js for the backend, React for the frontend, and MongoDB for data storage. Integrated generative AI-powered search for tailored event suggestions based on user preferences.",
+      "Built using Node.js for the backend, React for the frontend, and MongoDB for data storage. Integrated LangChain search for tailored event suggestions based on user preferences.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -187,7 +187,7 @@ export const workExperience = [
   {
     id: 1,
     position: "FULL-STACK DEVELOPER",
-    time: "January 2024 - Present",
+    time: "January 2024 - September 2024",
     content: `
       Managed User Authentication and Authorization with ASP.NET Core Identity, EntraID, and Microsoft Graph.
       Used Azure Functions, Azure App Services, Azure Cosmos DB, and Azure Service Bus.
