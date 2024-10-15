@@ -136,7 +136,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Viktoriia was an excellent member of our team. She contributed to the product with a can-do attitude and was selfless in helping out other, more junior team members and helped them also with their growth. She is ideal for any project that requires a roll up your sleeves to get stuff done. She has excellent communication skills and really cares about her work and contribution! I can highly recommend Viktoriia for any full-time position or also as an assistant lead developer. A great asset to any team!",
+      "Viktoriia was an excellent member of our team. She contributed to the product with a can-do attitude and was selfless in helping out other, more junior team members and helped them also with their growth. She has excellent communication skills and really cares about her work and contribution! I can highly recommend Viktoriia for any full-time position or also as an assistant lead developer. A great asset to any team!",
     name: "Paul Brennan",
     title: "Talent Hive Co-Founder",
     picture: "/2.jpeg",
