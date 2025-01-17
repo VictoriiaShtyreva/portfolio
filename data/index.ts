@@ -10,18 +10,18 @@ export const gridItems = [
     id: 1,
     title: "Tech Enthusiast with a Passion for Development",
     description:
-      "With a background in biology, I transitioned to tech through extensive front-end development courses.",
+      "With over two years of experience in frontend and backend development, now excelling as a Software Designer, combining creativity, technical expertise, and a passion for crafting impactful digital solutions.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.jpg",
+    img: "/grid.svg",
     spareImg: "",
   },
   {
     id: 2,
     title: "Communication",
     description:
-      "I believe in working closely with my team to understand our collective goals and deliver effective solutions.",
+      "I believe in collaborating closely with my team to align on shared goals and deliver impactful solutions.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -40,9 +40,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "EventApp using Gen-AI",
+    title: "Junction 2024 Hackathon",
     description:
-      "Built using Node.js for the backend, React for the frontend, and MongoDB for data storage. Integrated LangChain search for tailored event suggestions based on user preferences.",
+      "ThriveConnectApp is a full-stack platform that connects job seekers with companies, featuring a React-based frontend, a Node.js/Express backend, and MongoDB, leveraging AI and machine learning for real-time job matching and feedback.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -53,7 +53,7 @@ export const gridItems = [
     id: 5,
     title: "Certified Azure Developer Associate",
     description:
-      "Recently completed the Event Management System API project, built using .NET, Entity Framework Core, PostgreSQL and Azure. As a result, I earned the Microsoft Certified: Azure Developer Associate certification.",
+      "I currently work with Azure infrastructure, including Azure API Management, Azure Monitor, and other services. I am also a Microsoft Certified: Azure Developer Associate, showcasing my proficiency in Azure technologies.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-1/2 sm:w-1/4",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -76,7 +76,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "The Event Management System",
+    title: "ThriveConnectApp",
     des: "The Event Management System is a web application built with Azure, utilizing Entity Framework Core and PostgreSQL.",
     img: "/p1.png",
     iconLists: [
@@ -90,6 +90,20 @@ export const projects = [
   },
   {
     id: 2,
+    title: "The Event Management System",
+    des: "The Event Management System is a web application built with Azure, utilizing Entity Framework Core and PostgreSQL.",
+    img: "/p1.png",
+    iconLists: [
+      "/azure.svg",
+      "/csharp.svg",
+      "/swagger.svg",
+      "/docker.svg",
+      "/postman.svg",
+    ],
+    link: "https://github.com/VictoriiaShtyreva/EventManagementApiApp",
+  },
+  {
+    id: 3,
     title: "QuickMartEcommerce",
     des: "This Frontend E-Commerce Project aimed at building an e-commerce website.",
     img: "/p2.png",
@@ -103,7 +117,7 @@ export const projects = [
     link: "https://github.com/VictoriiaShtyreva/Frontend-QuickMartEcommerce",
   },
   {
-    id: 3,
+    id: 4,
     title: "QuickMartEcommerce",
     des: "It is the back-end component of an e-commerce application.",
     img: "/p3.png",
@@ -117,7 +131,7 @@ export const projects = [
     link: "https://github.com/VictoriiaShtyreva/Backend-QuickMartEcommerce",
   },
   {
-    id: 4,
+    id: 5,
     title: "My Portfolio",
     des: "This portfolio showcases my projects, skills, and accomplishments.",
     img: "/p4.png",
